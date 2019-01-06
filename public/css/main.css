@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #DADFE1;
+  font-family: verdana, arial, sans-serif;
+}
+
+.wrapper {
+  width: 960px;
+  min-height: 800px;
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.filter {
+  width: 125px;
+  margin: 10px 0 0 10px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.filter:first-child {
+  margin-top: 0;
+}
+
+.filter > h2 {
+  font-size: 11px;
+  margin: 0;
+}
+
+.filter-content {
+  background-color: #52B3D9;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.filter-content > select {
+  width: 90%;
+  display: block;
+  margin: auto;
+  font-size: 11px;
+}
+
+.filter-options {
+  width: 140px;
+  overflow: hidden;
+  display: inline-block;
+  position: absolute;
+  z-index: 4;
+}
+
+.part-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #DADFE1;
+  width: 140px;
+  z-index: 3;
+}
+
+.all {
+  width: 780px;
+  float: right;
+  margin: 10px 10px;
+}
+
+.name {
+  margin: 0;
+  font-size: 13px;
+}
+
+.bloc-content {
+  min-height: 100px;
+  width: 100%;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.number {
+  padding: 5px;
+  float: left;
+  margin: 10px 0 0 10px;
+  background-color: #3FC380;
+  color: #fff;
+  font-size: 16px;
+}
+
+.content {
+  margin: 50px 0 0 20px;
+  font-size: 16px;
+}
+
+.content p {
+  font-family: georgia, arial, sans-serif;
+  margin-top: 10px;
+}
+
+.name-translation {
+  font-style: italic;
+  color: #95A5A6;
+}
+
+.up {
+  float: right;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 20px;
+
+}
+
+.up:hover {
+  color: black;
+}
+
+.font-size-change {
+  float: right;
+}
+
+.font-size-change > .option {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.font-size-change > .option:hover {
+  color: green;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+footer {
+  margin: auto;
+  width: 960px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 11px;
+}
